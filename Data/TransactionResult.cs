@@ -1,3 +1,6 @@
+using FlightPlanApi.Models;
+
+
 namespace FlightPlanApi.Data
 {
     public enum TransactionResult

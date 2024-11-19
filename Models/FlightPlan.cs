@@ -5,10 +5,10 @@ namespace FlightPlanApi.Models
     public class FlightPlan
     {
         [JsonPropertyName("flight_plan_id")]
-        public string FlightPlanId { get; set; }
+        public string? FlightPlanId { get; set; }
 
         [JsonPropertyName("aircraft_identification")]
-        public string AircraftIdentification { get; set; }
+        public string? AircraftIdentification { get; set; }
 
         [JsonPropertyName("aircraft_type")]
         public string AircraftType { get; set; }

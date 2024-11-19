@@ -7,5 +7,10 @@ namespace FlightPlanApi.Controllers
     [ApiController]
     public class FlightPlanController : ControllerBase
     {
+        private IDatabaseAdapter _database;
+
+        public FlightPlanController(IDatabaseAdapter database){
+            _database = database;
+        }
     }
 }

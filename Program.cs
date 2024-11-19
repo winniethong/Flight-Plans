@@ -1,4 +1,4 @@
-using Flight-Plans.Data;
+using FlightPlanApi.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
